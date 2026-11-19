@@ -60,7 +60,7 @@ PANELS = [
     {
         "file": "media-generation-panel-israel-knesset-0-f3ca275e-2745-4952-afae-64a2553771c5.webp",
         "kicker": "ISRAEL  ·  POLITICS",
-        "headline": "Knesset elects Matan Kahana speaker as Netanyahu foes win",
+        "headline": "Knesset elects Matan Kahana speaker as Netanyahu's foes win",
     },
     {
         "file": "media-generation-panel-alaska-senate-0-6c81b174-11bf-46ee-a0ca-384a49836676.webp",
@@ -145,7 +145,7 @@ def main():
     draw.text(((W - tw) / 2, 8), title, font=title_fnt, fill=WHITE)
     draw.rectangle([MARGIN, 66, W - MARGIN, 68], fill=GOLD)
     date_fnt = font(SANS_BOLD, 24)
-    date = "WEDNESDAY,  18 NOVEMBER 2026"
+    date = "WEDNESDAY, 18 NOVEMBER 2026"
     dw = draw.textlength(date, font=date_fnt)
     draw.text(((W - dw) / 2, 72), date, font=date_fnt, fill=GOLD)
 
